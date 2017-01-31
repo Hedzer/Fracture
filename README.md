@@ -1,2 +1,2 @@
 # Fracture
-A library for easing file I/O concurrency issues when no other solution is a possibility. eg. Your hands are tied and you can only use a mounted drive from a NAS instead of a server or proper DB.
+A FS/JSON object sync library. Fracture stores JSON values in single files to allow for reduced I/O errors when concurrent writes are happening. Fracture synchronizes an object with the values stored on the file system.

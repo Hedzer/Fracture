@@ -1,0 +1,25 @@
+{
+  "name": "fracture",
+  "version": "1.0.0",
+  "description": "A FS/JSON object sync library. Fracture stores JSON values in single files to allow for reduced I/O errors when concurrent writes are happening. Fracture synchronizes an object with the values stored on the file system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hedzer/Fracture.git"
+  },
+  "author": "Hedzer Ferwerda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hedzer/Fracture/issues"
+  },
+  "homepage": "https://github.com/Hedzer/Fracture#readme",
+  "dependencies": {
+    "console-shim2": "^0.1.0",
+    "mkdirp": "^0.5.1",
+    "msgpack-lite": "^0.1.26",
+    "rimraf": "^2.5.4"
+  }
+}

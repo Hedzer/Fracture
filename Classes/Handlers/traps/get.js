@@ -13,6 +13,7 @@ const $private = require('../../../Symbols/private');
 
 
 function get(target, key, receiver) {
+
 	//if it's a native function call, do that
 	let native = Reflect.get(target, key, receiver);
 	if (typeof key === 'symbol' || typeof native === 'function') {

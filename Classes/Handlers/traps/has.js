@@ -3,10 +3,6 @@
 const fs = require('fs');
 const fspath = require('path');
 
-//objects & methods
-const types = require('../types');
-const error = require('../error');
-
 //symbols
 const $private = require('../../../Symbols/private');
 
